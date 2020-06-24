@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <title>Fetch API sandbox</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Fetch API Sandbox</h1>
+
+        <button class="btn" id="getText">Get Text</button>
+        <button class="blue btn" id="getUsers">Get Users (JSON)</button>
+        <button class="red btn" id="getPosts">Get Posts</button>
+        <br><br><br>
+    
+        <div id="output"></div>
+    
+        <form id="addPost">
+    
+            <div class="input-field">
+                <input type="text" id="title" placeholder="Title">        
+            </div>
+            <div class="input-field">
+                <textarea id="body" cols="50" rows="5" placeholder="Body" class="materialize-textarea"></textarea>
+            </div>
+            <input class="btn" type="submit" value="Submit">
+            <p>open console to see fetch ADD</p>
+    
+        </form>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "name":"Stormy",
+        "email":"stormy@forrest.org"
+    }, 
+    {
+        "id":2,
+        "name":"Forrest",
+        "email":"forrest@stormy.org"
+    }, 
+    {
+        "id":3,
+        "name":"Mooseface",
+        "email":"mooseface@forrest.org"
+    }, 
+    {
+        "id":4,
+        "name":"Pimplebutt",
+        "email":"pimplebutt@forrest.org"
+    }, 
+    {
+        "id":5,
+        "name":"Weaslelips",
+        "email":"weaslelips@forrest.org"
+    }, 
+    {
+        "id":6,
+        "name":"Misslenose",
+        "email":"misslenose@forrest.org"
+    }
+]
